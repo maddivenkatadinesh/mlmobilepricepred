@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+        <EditText
+            android:id="@+id/bat_pow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Battery Power" />
+
+        <EditText
+            android:id="@+id/bl_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter bluetooth" />
+
+        <EditText
+            android:id="@+id/cl_sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Clock Speed" />
+
+        <EditText
+            android:id="@+id/du_si"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Dual Sim" />
+
+        <EditText
+            android:id="@+id/fc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Front camera" />
+
+        <EditText
+            android:id="@+id/fg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Four G" />
+
+        <EditText
+            android:id="@+id/in_mm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Internal Memory" />
+
+        <EditText
+            android:id="@+id/m_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Depth" />
+
+        <EditText
+            android:id="@+id/m_w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mobile Weight" />
+
+        <EditText
+            android:id="@+id/n_co"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Number of Cores" />
+
+        <EditText
+            android:id="@+id/pc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Primary Camera" />
+
+        <EditText
+            android:id="@+id/px_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Pixel Height" />
+
+        <EditText
+            android:id="@+id/px_w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Pixel Width" />
+
+        <EditText
+            android:id="@+id/r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Ram" />
+
+        <EditText
+            android:id="@+id/sc_h"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Screen Height" />
+
+        <EditText
+            android:id="@+id/sc_w"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Screen Width" />
+
+        <EditText
+            android:id="@+id/tt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Talk Time" />
+
+        <EditText
+            android:id="@+id/tg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Three G" />
+
+        <EditText
+            android:id="@+id/t_sc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Touch Screen" />
+
+        <EditText
+            android:id="@+id/wf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Wifi" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:onClick="submit" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price Range" />
+
+    </LinearLayout>
+</ScrollView>
